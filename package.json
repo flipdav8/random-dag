@@ -1,37 +1,37 @@
 {
-  "name": "random-dag",
-  "version": "1.0.4",
-  "description": "Generate random DAG for testing",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/karissa/random-dag.git"
-  },
-  "keywords": [
-    "graph",
-    "DAG",
-    "bitcoin",
-    "blockchain",
-    "dag",
-    "random graph",
-    "directed acyclic graph",
-    "random"
-  ],
-  "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/karissa/random-dag/issues"
-  },
-  "homepage": "https://github.com/karissa/random-dag#readme",
-  "dependencies": {
-    "graphlib": "^1.0.7",
-    "random-js": "^1.0.8",
-    "readable-stream": "^2.0.4"
-  },
-  "devDependencies": {
-    "tape": "^4.2.2"
-  }
+	"name": "random-dag",
+	"version": "1.0.4",
+	"description": "Generate random DAG for testing",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/karissa/random-dag.git"
+	},
+	"keywords": [
+		"graph",
+		"DAG",
+		"bitcoin",
+		"blockchain",
+		"dag",
+		"random graph",
+		"directed acyclic graph",
+		"random"
+	],
+	"author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/karissa/random-dag/issues"
+	},
+	"homepage": "https://github.com/karissa/random-dag#readme",
+	"dependencies": {
+		"graphlib": "^2.1.8",
+		"random-js": "^1.0.8",
+		"readable-stream": "^2.0.4"
+	},
+	"devDependencies": {
+		"tape": "^4.2.2"
+	}
 }
